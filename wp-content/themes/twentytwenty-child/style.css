@@ -1,0 +1,235 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Theme URI:    https://wordpress.org/themes/twentytwenty-child/
+ Description:  Twenty Twenty Child Theme
+ Author:       Wimonsiri P.
+ Author URI:   http://pangp.herokuapp.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwenty
+*/
+
+
+	/* TITLES */
+
+	h1,
+	.heading-size-1,
+	h2,
+	.heading-size-2,
+	h3,
+	.heading-size-3 {
+		margin: 6rem auto 3rem;
+	}
+
+	h4,
+	.heading-size-4,
+	h5,
+	.heading-size-5,
+	h6,
+	.heading-size-6 {
+		margin: 4.5rem auto 2.5rem;
+	}
+
+	h1,
+	.heading-size-1 {
+		font-size: 6.4rem;
+	}
+
+	h2,
+	.heading-size-2 {
+		font-size: 4.8rem;
+	}
+
+	h3,
+	.heading-size-3 {
+		font-size: 4rem;
+	}
+
+	h4,
+	.heading-size-4 {
+		font-size: 2.4rem;
+	}
+
+	h5,
+	.heading-size-5 {
+		font-size: 2.4rem;
+	}
+
+	h6,
+	.heading-size-6 {
+		font-size: 1.8rem;
+	}
+
+    .field-hidden {
+        display: none !important;
+    }
+    
+.post-inner.thin {
+    padding-top: 40px;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.widget .widget-title {
+    font-size: 24px;
+}
+
+.course-list-wrapper .course-item {
+    margin-bottom: 20px;
+}
+.course-content-inner {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.course-column-left {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 40%;
+}
+.course-column-right {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 60%;
+}
+
+.course-column-text {
+    padding: 20px 20px 20px 0;
+}
+
+.course-name h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.course-list-wrapper .course-item {
+    margin-bottom: 20px;
+    padding: 0;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.course-desc p {
+    font-size: 16px;
+}
+
+.course-price {
+    font-weight: bold;
+}
+
+
+.course-poster {
+    height: 100%;
+    position: relative;
+}
+.course-poster  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.course-item .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: normal;
+    text-transform: initial;
+    border-radius: 6px;
+}
+
+.entry-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.entry-column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.entry-column.content-column {
+  flex: 1 0 70%;
+  max-width: 70%;
+}
+.entry-column.widget-column {
+  flex: 1 0 30%;
+  max-width: 30%;
+}
+.home .entry-content {
+  justify-content: center;
+  display: flex;
+}
+
+.trainer-lists .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.trainer-lists .row > .col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trainer-lists .row > .col.col-half {
+    max-width: 50%;
+    flex: 1 0 50%;
+}
+
+.trainer-lists .row > .col.col-full {
+    max-width: 100%;
+    flex: 1 0 100%;
+}
+
+.trainer-lists .row > .col.col-third {
+    max-width: 33.33%;
+    flex: 1 0 33.33%;
+}
+
+.trainer-lists .trainer-thumb img {
+    width: 100%;
+}
+
+.trainer-lists .trainer-name {
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
+@media (min-width: 700px) {
+    .entry-content h1, .entry-content h2, .entry-content h3 {
+        margin-top: 0;
+    }
+    .entry-content h4, .entry-content h5, .entry-content h6 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .trainer-lists .row > .col.col-third {
+        max-width: 100%;
+        flex: 1 0 100%;
+    }
+    .entry-column.content-column {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+    .entry-column.widget-column {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+}

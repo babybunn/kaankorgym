@@ -1,0 +1,73 @@
+.aqi-content.aqi-green {
+    /* background-color: rgb(215,245,196); */
+}
+
+.aqi-widget-wrapper .aqi-level-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.aqi-content {
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #fefefe;
+}
+
+.aqi-img img {
+    width: 100%;
+    max-width: 160px;
+}
+
+.aqi-level {
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 14px;
+    max-width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.aqi-level span {
+    display: inline-block;
+    line-height: 1.2;
+    font-size: 12px;
+}
+
+.aqi-status--text {
+    padding: 5px 5px;
+    background-color: #ccc;
+    color: #fff;
+    width: 60%;
+    text-align: center;
+}
+
+.aqi-green .aqi-status--text {
+    background-color: #7eb959;
+}
+
+.aqi-value {
+    padding: 5px 5px;
+    text-align: center;
+    width: 40%;
+}
+
+.aqi-location {
+    font-size: 12px;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.aqi-update {
+    font-size: 12px;
+    color: #a7a7a7;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
